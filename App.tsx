@@ -1,14 +1,15 @@
 import 'react-native-gesture-handler';
+
 import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import Navigation from './src/navigation/Navigation';
 import {GradientProvider} from './src/context/GradientContext';
 
-const AppState = ({childre}: any) => {
-  return <GradientProvider>{childre}</GradientProvider>;
+const AppState = ({children}: any) => {
+  return <GradientProvider>{children}</GradientProvider>;
 };
 
-export default function App() {
+const App = () => {
   return (
     <NavigationContainer>
       <AppState>
@@ -16,4 +17,6 @@ export default function App() {
       </AppState>
     </NavigationContainer>
   );
-}
+};
+
+export default App;

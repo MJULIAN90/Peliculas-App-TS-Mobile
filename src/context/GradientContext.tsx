@@ -9,12 +9,12 @@ interface ContextProps {
   colors: ImageColors;
   prevColors: ImageColors;
   setMainColors: (colors: ImageColors) => void;
-  setMainPrevColors: (colors: ImageColors) => void;
+  setPrevMainColors: (colors: ImageColors) => void;
 }
 
 export const GradientContext = createContext({} as ContextProps);
 
-export const GradientProvider = ({childre}: any) => {
+export const GradientProvider = ({children}: any) => {
   const [colors, setColors] = useState<ImageColors>({
     primary: 'transparent',
     secondary: 'transparent',
@@ -29,7 +29,7 @@ export const GradientProvider = ({childre}: any) => {
     setColors(colors);
   };
 
-  const setMainPrevColors = (colors: ImageColors) => {
+  const setPrevMainColors = (colors: ImageColors) => {
     setPrevColors(colors);
   };
 
@@ -39,9 +39,9 @@ export const GradientProvider = ({childre}: any) => {
         colors,
         prevColors,
         setMainColors,
-        setMainPrevColors,
+        setPrevMainColors,
       }}>
-      {childre}
+      {children}
     </GradientContext.Provider>
   );
 };

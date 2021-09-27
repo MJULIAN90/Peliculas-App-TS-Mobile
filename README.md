@@ -24,6 +24,11 @@ Agregamos diferentes librerias que nos permite extraer los colores de las imagen
 
 ### STACK TECNOLÓGICO
 
+
+Se creó utilizando tecnologías como es el caso de React Native que nos permite desarrollar APP's tanto para ANDROID como para iOS, se utilizó TypeScript para generar codigo mas seguro.
+
+********
+
 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" width="60" alt="HTML"> |<img src="https://reactnative.dev/img/header_logo.svg" width="60" alt="CSS"> | <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F7%2F7e%2FNode.js_logo_2015.svg%2F1280px-Node.js_logo_2015.svg.png&f=1&nofb=1" width="60" alt="JS"> |<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="60" alt="REACT"> | <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--6McQQU7i--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/i/j4hwcf7lntmqyha7ras5.png" width="70" alt="TYPE SCRIPT"> |
 | :------------: | :------------: | :------------: | :------------: | :------------: | 
 | CSS3  | React Native | Node JS | JAVASCRIPT | TYPE SCRIPT |

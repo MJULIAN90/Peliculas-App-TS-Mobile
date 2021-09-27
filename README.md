@@ -5,8 +5,7 @@
 
 # Peliculas-App-TS-Mobile
 
-Se creo una App en React Native con TypeScript en la cual consumimos una API externa que nos proporciona los datos de las peliculas como son: sus actores, su historia, su presupuesto y mucho mas; Agregamos diferentes libreria que nos permite extraer los colores de las imagenes para darles efectos de color de fondo a cada pelicula que vamos deslizando. 
-
+Se creo una App en React Native con TypeScript en la cual consumimos una API externa que nos proporciona los datos de peliculas como las de mejor ranking , proximas a salir a cine y mas populares y ver sus principales caracteristicas como son: sus actores, su historia, su presupuesto y mucho mas.
 
 
 <p align="center">
@@ -15,7 +14,7 @@ Se creo una App en React Native con TypeScript en la cual consumimos una API ext
 <img  src="https://user-images.githubusercontent.com/76981775/134852352-77d4fdaa-7e0a-43f3-902d-2b45b56673e1.png" width="30%" height='450px'>
 </p>
 
- Se implementaron diferentes hooks como el useContext , useEffect , useState , entre otros. se utilizo gradientes para dar una mejor apariencia a la App en sus estilos.
+Agregamos diferentes librerias que nos permite extraer los colores de las imagenes para darles efectos de color de fondo a cada pelicula que vamos deslizando, Se implementaron diferentes hooks como el useContext , useEffect , useState , entre otros. se utilizo gradientes para dar una mejor apariencia a la App en sus estilos.
 
 <p align="center">
 <img  src="https://user-images.githubusercontent.com/76981775/134852439-e5adf465-d6f4-4240-bbd0-f8addc74da5c.png" width="30%" height='450px'>
@@ -28,3 +27,7 @@ Se creo una App en React Native con TypeScript en la cual consumimos una API ext
 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" width="60" alt="HTML"> |<img src="https://reactnative.dev/img/header_logo.svg" width="60" alt="CSS"> | <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F7%2F7e%2FNode.js_logo_2015.svg%2F1280px-Node.js_logo_2015.svg.png&f=1&nofb=1" width="60" alt="JS"> |<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="60" alt="REACT"> |
 | :------------: | :------------: | :------------: | :------------: | 
 | CSS3  | React Native | Node JS | JAVASCRIPT |  
+
+✔ web site:  <a href="https://github.com/MJULIAN90/Peliculas-App-TS-Mobile" target="_blank">
+PROXIMAMENTE
+</a> 

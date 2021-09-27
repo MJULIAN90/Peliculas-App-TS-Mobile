@@ -48,7 +48,7 @@ const HomeScreen = () => {
     <GradientBackgrount>
       <ScrollView>
         <View style={{marginTop: top + 20}}>
-          <View style={{height: height * 0.45}}>
+          <View style={{height: height * 0.45, marginBottom: 18}}>
             <Carousel
               data={nowPlaying}
               renderItem={({item}: any) => <MovieCard movie={item} />}
@@ -59,9 +59,9 @@ const HomeScreen = () => {
             />
           </View>
 
-          <HorizontalSlider title="topRated" movies={topRated} />
-          <HorizontalSlider title="upcoming" movies={upcoming} />
-          <HorizontalSlider title="Populares" movies={popular} />
+          <HorizontalSlider title="TOP RANKING" movies={topRated} />
+          <HorizontalSlider title="PROXIMAMENTE" movies={upcoming} />
+          <HorizontalSlider title="POPULARES" movies={popular} />
         </View>
       </ScrollView>
     </GradientBackgrount>

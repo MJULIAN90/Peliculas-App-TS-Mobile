@@ -14,6 +14,7 @@ const HorizontalSlider = ({title, movies}: Props) => {
     <View
       style={{
         height: title ? height * 0.3 : height * 0.26,
+        marginBottom: -30,
       }}>
       {title && (
         <Text style={{fontSize: 25, fontWeight: 'bold', marginLeft: 10}}>
